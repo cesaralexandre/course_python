@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "course-python"
+version = "1.0.0"
+description = "Course: Python 3 from Basic to Advanced"
+authors = ["César Alexandre <cesaralexandre@outlook.com>"]
+readme = "README.md"
+packages = [{include = "course_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
